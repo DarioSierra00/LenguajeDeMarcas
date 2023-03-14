@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="empleo">
+        <title>Solicitud de empleo</title>
+    </head>
+    <body bgcolor="#B4BBB9">
+        <form method="post" action="mailto:someone@exemple.com?subject=Formulario">
+            <h1 align="center">Solicitud de empleo</h1>
+            <table border="1" align="center">
+                <tr>
+                    <td>Foto Perfil:<br>
+                        <input type="file" name="firma" accept=".pdf,.jpg,.png" multiple />
+                    </td>
+                </tr>
+            </table>
+            <h3>Datos personales</h3>
+            <table border="1">
+                <tr>
+                    <td>1º Apellido:<br>
+                        <input type="text" name="apellido" size="20">
+                    </td>
+                    <td>2º Apellido:<br>
+                        <input type="text" name="apellido" size="20">
+                    </td>
+                    <td colspan="2">Nombre:<br>
+                        <input type="text" name="nombre" size="20">
+                    </td>
+                    <td>Edad:<br>
+                        <input type="number" name="edad" step="any">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domicilio:
+                        <input type="text" name="domicilio" size="20">
+                    </td>
+                    <td>Ciudad:
+                        <input type="text" name="ciudad" size="20">
+                    </td>
+                    <td>Código postal:
+                        <input type="number" name="cp">
+                    </td>
+                    <td>Teléfono:
+                        <input type="number" name="telefono">
+                    </td>
+                    <td>Móvil:
+                        <input type="number" name="movil">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lugar de nacimiento:
+                        <input type="text" name="nombre" size="20">
+                    </td>
+                    <td>Fecha de nacimiento:
+                        <input type="date" name="fecha">
+                    </td>
+                    <td colspan="2">Nacionalidad:<br>
+                        <select name="menu">
+                            <option value="1">...</option>
+                            <option value="2">Español</option>
+                            <option value="3">Inglés</option>
+                            <option value="4">Francés</option>
+                          </select>
+                    </td>
+                    <td>Sexo:<br>
+                        <input type="radio" name="boton" value="1">Hombre
+                        <input type="radio" name="boton" value="2">Mujer
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Persona que dependen de usted:<br>
+                        <input type="radio" name="boton" value="1">Padres
+                        <input type="radio" name="boton" value="2">Familiares
+                        <input type="radio" name="boton" value="3">Amigos
+                        <input type="radio" name="boton" value="4">Otro</td>
+                    <td colspan="3">Estado civil:<br>
+                        <input type="radio" name="boton" value="1">Solter@
+                        <input type="radio" name="boton" value="2">Casad@
+                        <input type="radio" name="boton" value="3">Otro
+                    </td>
+            </table>
+            <h3>Documentación</h3>
+            <table border="1">
+                <tr>
+                    <td>NSS:<br>
+                        <input type="text" name="nss" size="20">
+                    </td>
+                    <td>DNI:<br>
+                        <input type="text" name="dni" size="20">
+                    </td>
+                    <td>Pasaporte:<br>
+                        <input type="text" name="pasaporte" size="20">
+                    </td>
+                </tr>
+            </table>
+            <h3>Datos Generales</h3>
+            <table border="1">
+                <tr>
+                    <td>¿Cómo se entero de este empleo?<br>
+                        <input type="text" name="empleo" size="20">
+                    </td>
+                    <td>¿Tienen familiares dentro de la empresa?<br>
+                        <input type="radio" name="boton" value="1">Si
+                        <input type="radio" name="boton" value="2">No
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Ha estado afianzado?<br>
+                        <input type="radio" name="boton" value="1">Si
+                        <input type="radio" name="boton" value="2">No
+                    </td>
+                    <td>¿Tiene seguro de vida?<br>
+                        <input type="radio" name="boton" value="1">Si
+                        <input type="radio" name="boton" value="2">No
+                    </td>
+                </tr>
+                <tr>
+                    <td>¿Esta dispuesto a cambiar de lugar de residencia?<br>
+                        <input type="radio" name="boton" value="1">Si
+                        <input type="radio" name="boton" value="2">No
+                    </td>
+                    <td>Fecha en la que se podría incorporar a trabajar:<br>
+                        <input type="radio" name="boton" value="1">Si
+                        <input type="radio" name="boton" value="2">No
+                    </td>
+                </tr>
+            </table>
+            <h3>Experiencia</h3>
+            <textarea name="texto" rows="10" cols="100" placeholder="Escribe toda tu experiencia laboral."></textarea>
+            <h3>Firma electrónica</h3>
+            <input type="file" name="firma" accept=".pdf,.jpg,.png" multiple /><br>
+            <br>
+            <p align="center"><input type="submit" value="Enviar">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="reset" value="Borrar"></p>
+
+        </form>
+    </body>
+</html>

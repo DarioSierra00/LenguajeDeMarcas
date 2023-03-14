@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+    <head>
+        <title>Webs de Locos</title>
+    </head>
+    <body>
+        <h1>Webs molonas</h1>
+        <br>
+        <a href="https://onepiece.fandom.com/es/wiki/One_Piece_Wiki" target="_blank" style="text-decoration:none">Web de One Piece</a>
+        <br>
+        <a href="https://jojo.fandom.com/es/wiki/JoJo%27s_Bizarre_Adventure" target="_blank" style="text-decoration:none">Web de Jojos</a>
+        <br>
+        <a href="https://www.amctv.es/series/breaking-bad" target="_blank" style="text-decoration:none">Web de Breaking bad</a>
+    </body>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AudioVideo</title>
+    </head>
+    <body>
+        <audio controls><source src="shakira.mp3">Audio</source></audio>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dZ5BZSmgY6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+    </body>
+</html>

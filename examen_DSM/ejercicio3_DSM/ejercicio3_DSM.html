@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        input[type=text]:focus,input[type=email]:focus,input[type=datetime]:focus{
+            background-color: coral;
+        }
+        input[type=number]:focus{
+            background-color: firebrick;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="https://iesjacaranda.es/lmsgi/resultado.php">
+        Nombre<br><input type="text"required><br>
+        Correo Electrónico<br><input type="email" required><br>
+        URL<br><input type="text" placeholder="Escribe la URL de tu pagina web personal"><br>
+        Fecha<br><input type="date"><br>
+        Tiempo<br><input type="time"><br>
+        Fecha y hora<br><input type="datetime"><br>
+        Mes<br><input type="month"><br>
+        Semana<br><input type="week"><br>
+        Número<br><input type="number" min="-10" max="10"><br>
+        Teléfono<br><input type="number" min="0" max="999999999"><br>
+        Color favorito<br><input type="color" value="green"><br>
+        Sube un archivo<br><input type="file"><br>
+        <br><input type="submit"><br>
+    </form>
+</body>
+</html>

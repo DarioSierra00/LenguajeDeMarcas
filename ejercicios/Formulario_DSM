@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>YEEE</title>
+    </head>
+    <body>
+        <h1 align="center">Formulario</h1>
+        <form>
+            <ul type="disc">
+                <li>Nombre</li>
+                <p><input type="text" size="10" maxlenght="40" name="nombre"></li></p>
+            </ul>
+            <ul type="disc">
+                <li>Apellido</li>
+                <p><input type="text" size="10" maxlenght="40" name="Apellido"></li></p>
+            </ul>
+            <ul type="disc">
+                <li>edad</li>
+                <p><input type="text" size="10" maxlenght="40" name="nombre"></li></p>
+            </ul>
+            <ul type="disc">
+                <li>Idiomas</li>
+                <p><input type="checkbox" size="10" maxlenght="40" name="nombre">Inglés</li>
+                <input type="checkbox" size="10" maxlenght="40" name="nombre">Alemán</li></p>
+                <p><input type="checkbox" size="10" maxlenght="40" name="nombre">Francés</li></p>
+            </ul>
+            <p align="center"><input type="submit" value="Enviar Formulario"></p>
+    </body>

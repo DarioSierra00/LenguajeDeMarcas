@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <ul><b><u>OPERACIONES BÁSICAS:</u></b>
+            <ul>
+                <li>Entrar en el programa.</li>
+                <li>Guardar un documento por primera vez.</li>
+                <li>Recuperar un archivo.</li>
+                <li>Fuentes, tamaños y colores.</li>
+            </ul>
+        </ul>
+        <br>
+        <ol><b><u>ENTRAR EN EL PROGRAMA:</u></b>
+            <ol type="1">
+                <li>Desplegar el menú Inicio.</li>                <li>Desplegar el menú Inicio.</li>
+                <li>Seleccionar el apartado Programas.</li>
+                <li>En el segundo menú pinchar sobre la opción correspondiente.</li>
+            </ol>
+        </ol>
+        <ul><b><u>GUARDAR UN DOCUMENTO POR 1ª VEZ:</u></b>
+            <ul type="square">
+                <li>Desplegar el menú Inicio.</li>                <li>Desplegar el menú Inicio.</li>
+                <li>Elegir la opción Guardar como.</li>
+                <li>Seleccionar la unidad de almacenamiento.</li>
+                <li>Escribir el nombre con el que se vaya a guardar el documento.</li>
+                <li>Pulsar el botón Guardar.</li>
+            </ul>
+        </ul>
+        <ol><b><u>RECUPERAR UN ARCHIVO:</u></b>
+            <ol type="a">
+                <li>Desplegar el menú Inicio.</li>                <li>Desplegar el menú Inicio.</li>
+                <li>Elegir la opción Abrir.</li>
+                <li>Indicar la unidad en la que está almacenado el documento.</li>
+                <li>Seleccionar el archivo de la lista.</li>
+                <li>Pulsar el botón Abrir.</li>
+            </ol>
+        </ol>
+        <ul><b><u>FUENTES, TAMAÑOS Y COLORES:</u></b>
+            <ul type="disc">
+                <li>Desplegar el menú Inicio.</li>                <li>Desplegar el menú Inicio.</li>
+                <li>Seleccionar el apartado Programas.</li>
+                <li>En el segundo menú pinchar sobre la opción correspondiente.</li>
+            </ul>
+        </ul>
+    </html>

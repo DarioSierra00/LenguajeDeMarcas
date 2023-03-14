@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+    <head>
+        <title>ejerc tabla 1</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+            </tr>
+            <tr>
+                <td><table border="1">
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                    <tr>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                        <td>Celda</td>
+                    </tr>
+                </table></td>
+                <td>Celda</td>
+            </tr>
+            <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+            </tr>
+            <tr>
+                <td>Celda</td>
+                <td>Celda</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" style="background-color:#d9d9d9" width="300" height="300" >
+            <tr align="center">
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">E,I</td>
+                <td>F</td>
+                <td colspan="2">G,H</td>
+            </tr>
+            <tr align="center">
+                <td>J</td>
+                <td rowspan="2">K,O</td>
+                <td>L</td>
+            </tr>
+            <tr align="center">
+                <td>M</td>
+                <td>N</td>
+                <td>P</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <tr align="center" style="background-color:#eaeaea">
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr align="center" style="background-color:#9C9C9C">
+                <td style="background-color:#eaeaea">1</td>
+                <td><b>Nombre</b></td>
+                <td><b>Examen teórico</b></td>
+                <td><b>Examen práctico</b></td>
+                <td><b>Ejercicios entregados</b></td>
+                <td style="background-color:#088DFA"><b>¿Examenes aprobados?</b></td>
+                <td style="background-color:#66C506"><b>¿Cumple todos los requisitos?</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">2</td>
+                <td align="left" style="background-color:#E0EE6A">Cristina</td>
+                <td>4.9</td>
+                <td>8.7</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>FALSO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">3</td>
+                <td align="left" style="background-color:#E0EE6A">José Angel</td>
+                <td>7.3</td>
+                <td>6.9</td>
+                <td>NO</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">4</td>
+                <td align="left" style="background-color:#E0EE6A">Damian</td>
+                <td>9.1</td>
+                <td>6.0</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">5</td>
+                <td align="left" style="background-color:#E0EE6A">Rómulo</td>
+                <td>2.8</td>
+                <td>2.6</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>FALSO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">6</td>
+                <td align="left" style="background-color:#E0EE6A">Juan David</td>
+                <td>7.3</td>
+                <td>6.3</td>
+                <td>SÍ</td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">7</td>
+                <td align="left" style="background-color:#E0EE6A">David</td>
+                <td>5.7</td>
+                <td>7.2</td>
+                <td>NO</td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">8</td>
+                <td align="left" style="background-color:#E0EE6A">Isabel</td>
+                <td>5.8</td>
+                <td>6.3</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">9</td>
+                <td align="left" style="background-color:#E0EE6A">Felipe</td>
+                <td>5.6</td>
+                <td>4.9</td>
+                <td>SÍ</td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">10</td>
+                <td align="left" style="background-color:#E0EE6A">Ana Isabel</td>
+                <td>5.4</td>
+                <td>5.0</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">11</td>
+                <td align="left" style="background-color:#E0EE6A">Paula</td>
+                <td>3.2</td>
+                <td>5.0</td>
+                <td>NO</td>
+                <td style="background-color:#72ADDF"><b>FALSO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">12</td>
+                <td align="left" style="background-color:#E0EE6A">Maite</td>
+                <td>2.6</td>
+                <td>5.0</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>FALSO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">13</td>
+                <td align="left" style="background-color:#E0EE6A">Graciela María</td>
+                <td>7.5</td>
+                <td>5.9</td>
+                <td>SÍ</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>VERDADERO</b></td>
+            </tr>
+            <tr align="center">
+                <td style="background-color:#eaeaea">14</td>
+                <td align="left" style="background-color:#E0EE6A">María</td>
+                <td>5.3</td>
+                <td>6.5</td>
+                <td>NO</td>
+                <td style="background-color:#72ADDF"><b>VERDADERO</b></td>
+                <td style="background-color:#9EE455"><b>FALSO</b></td>
+            </tr>

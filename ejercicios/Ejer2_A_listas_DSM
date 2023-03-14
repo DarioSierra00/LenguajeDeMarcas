@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+        <ol>
+        <li>INTRODUCCIÓN AL PROGRAMA</li>
+            <ol type="a">
+                <li>Utilidad del Procesador de Texto.</li>
+                <li>Entrar en Procesador de Texto.</li>
+                <li>Los elementos de la pantalla.</li>
+                <ol type="disc">
+                    <li>Barra de Título</li>
+                    <li>Barra de menús</li>
+                    <li>Barra de herramientas Estándar</li>
+                    <li>Barra de Formato</li>
+                    <li>Barra de Regla</li>
+                    <li>Barra de Estado</li>
+                </ol>
+                <li>Salir del programa</li>
+            </ol>
+            <br>
+        <li>GESTIÓN DE ARCHIVOS</li>
+            <ol type="a">
+                <li>Guardar un documento nuevo.</li>
+                <li>Recuperar un archivo.</li>
+                <li>Guardar cambios.</li>
+                <ol type="disc">
+                    <li>Diferencias entre Guardar y Guardar como</li>
+                </ol>
+            </ol>
+        <br>
+        <li>FORMATO DEL DOCUMENTO</li>
+            <ol type="a">
+                <li>Márgenes</li>
+                <li>Interlineado</li>
+                <li>Espacio entre párrafos</li>
+                <li>Sangrías</li>
+                <ol type="disc">
+                    <li>Sangría 1ª línea</li>
+                    <li>Sangría izquierda</li>
+                    <li>Sangría derecha</li>
+                </ol>
+            </ol>
+        </ol>
+    </body>
+</html>

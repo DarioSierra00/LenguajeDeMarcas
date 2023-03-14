@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AudioVideo</title>
+    </head>
+    <body>
+        <audio controls><source src="shakira.mp3">Audio</source></audio>
+        
+    </body>
+</html>

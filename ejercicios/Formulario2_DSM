@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ejercicio formulario2</title>
+        <meta charset="UTF-8">
+    </head>
+    <body bgcolor="#green">
+        <h1 align="center">Registro Tienda Online</h1>
+        <br>
+        <form method="post" action="https://educacionadistancia.juntadeandalucia.es/centros/sevilla/pluginfile.php/940117/assignsubmission_file/submission_files/654089/www.servidorlocal.edu/programa.php">
+            <p align="center">Nombre: <input type="text" size="5" maxlength="20" required> Apellidos: <input type="text" size="15" maxlength="40"></p>
+            <p align="center">Correo: <input type="text" size="15" maxlength="40" value="example@example.com" required> Contraseña: <input type="password" size="10" maxlength="10"></p>
+            <p><b>¿Desea recibir notificaciones por correo?</b><br>
+                Si <input type="radio" name="correo"><br>
+                No <input type="radio" name="correo"></p>
+            <p><b>Elige tu nacionalidad:</b><br>
+                Inglesa: <input type="radio" name="citizenship"><br>
+                Española: <input type="radio" name="citizenship"><br>
+                China <input type="radio" name="citizenship"></p>
+            <p><b>Elige tu genéro:</b>
+            <br>
+                Femenino: <input type="radio" name="sex"><br>
+                Masculino: <input type="radio" name="sex"><br>
+                Otro: <input type="radio" name="sex">
+            </p>
+            <p><b>¿Algo que desee saber?</b><br>
+            <textarea cols="40" rows="5" maxlength="300">Escribe aquí.</textarea></p>
+            <p align="center"><input type="reset" value="Borrar todo">
+            <input type="submit" value="Enviar formulario"></p>
+        </form>
+    </body>
+</html>
